@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">Aviad</string>
+    <string name="app_name">Garbage Collector</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Collector!!</string>
+    <string name="slide_1_desc">The only way to be rewarded by collecting garbage.</string>
+
+    <string name="slide_2_title">Win Movie Tickets</string>
+    <string name="slide_2_desc">The top collectors will be selected for free known movie!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts for small app credits!</string>
+
+    <string name="slide_4_title">App Credits</string>
+    <string name="slide_4_desc">It\'s very simple, one picture equals one credit.!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
 </resources>

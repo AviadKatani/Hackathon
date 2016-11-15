@@ -14,7 +14,17 @@
     tools:context="hackathon.aviad.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/textView"
+        android:text="Garbage Collector" />
+
+    <TextView
+        android:text="Reset Pref"
+        android:layout_width="match_parent"
+        android:onClick="prefReset"
+        android:id="@+id/textView2"
+        android:layout_height="120dp"
+        android:textSize="30sp" />
+
 </LinearLayout>
