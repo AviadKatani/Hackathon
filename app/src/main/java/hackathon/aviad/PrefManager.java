@@ -14,8 +14,10 @@ public class PrefManager {
     int PRIVATE_MODE = 0;
     // Shared preferences file name
     private static final String prefName = "garbagecollector-welcome";
+    private static final String prefRegName = "garbagecollector-register";
 
     private static final String isFirstTimeLaunch = "isFirstTimeLaunch";
+
 
     public PrefManager(Context context) {
         this.context = context;
@@ -26,6 +28,10 @@ public class PrefManager {
     public void setFirstTimeLaunch(boolean isFirstTime) {
         editor.putBoolean(isFirstTimeLaunch,isFirstTime);
         editor.commit();
+    }
+
+    public void userRegister() {
+
     }
 
     public boolean getIsFirstTimeLaunch() {
